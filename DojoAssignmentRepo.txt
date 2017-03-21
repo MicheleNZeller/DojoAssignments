@@ -1,0 +1,13 @@
+Created DojoAssignments on GITHUB
+Opened terminal prompt
+cd desktop
+cd DojoAssignments
+git add .
+git commit -m "Update"
+git remote add origin https://github.com/MicheleNZeller/DojoAssignments.git
+git push -u origin master
+touch readme.md
+git status
+git add readme.md
+git commit -m "Added readme"
+git push -u origin master
