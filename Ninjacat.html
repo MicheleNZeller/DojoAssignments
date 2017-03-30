@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ninja to Cat</title>
+  </head>
+  <body>
+    <img src="/Users/tsuri/Downloads/img/ninja0.png" data-alt-src="/Users/tsuri/Downloads/img/cat0.png" id="1" class="ninja">
+    <img src="/Users/tsuri/Downloads/img/ninja1.png" data-alt-src="/Users/tsuri/Downloads/img/cat1.png" id="2" class="ninja">
+    <img src="/Users/tsuri/Downloads/img/ninja2.png" data-alt-src="/Users/tsuri/Downloads/img/cat2.png" id="3" class="ninja">
+    <img src="/Users/tsuri/Downloads/img/ninja3.png" data-alt-src="/Users/tsuri/Downloads/img/cat3.png" id="4" class="ninja">
+    <img src="/Users/tsuri/Downloads/img/ninja4.png" data-alt-src="/Users/tsuri/Downloads/img/cat4.png" id="5" class="ninja">
+  </body>
+  <style>
+  .ninja{
+    display: block;
+  }
+  </style>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script>
+  $(document).ready(function(){
+  $("img").click(function(){
+    $(this).attr({
+      "src": $(this).attr("data-alt-src"), "data-alt-src" : $(this).attr("src")
+    })
+  });
+});
+  </script>
+</html>

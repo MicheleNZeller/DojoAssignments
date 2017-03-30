@@ -1,0 +1,23 @@
+td{
+  color:blue;
+}
+
+#AboutMe{
+  color:purple;
+}
+
+.Costumeprogress{
+  color:green;
+}
+
+body{
+  background-image: url("http://www.planwallpaper.com/static/images/518164-backgrounds.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/*body{
+
+  background-color: #9fe0e4;
+
+}/*

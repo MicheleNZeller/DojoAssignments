@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery Functions</title>
+    <link rel="stylesheet" type="text/css" href="JQueryfunctions.css">
+  </head>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#clickbutton").click(function(){
+      alert("UNICORNS ARE AWESOME!!!");
+    });
+    $("#hidebutton").click(function(){
+      $(".sparkles").hide("slow", function(){
+      });
+    });
+    $("#showbutton").click(function(){
+      $(".sparkles").show(function(){
+      });
+    })
+    $("#togglebutton").click(function(){
+      $(".sparkles").toggle("slow", function(){
+      });
+    });
+    $("#slidedownbutton").click(function(){
+      $("#banner").slideDown("slow",function(){
+      });
+    });
+    $("#slideupbutton").click(function(){
+      $("#banner").slideUp("slow",function(){
+      });
+    });
+    $("#slidetogglebutton").click(function(){
+      $("#banner").slideToggle("slow",function(){
+      });
+    });
+    $("#fadeinbutton").click(function(){
+      $("#shiney").fadeIn("slow", function(){
+      });
+    });
+    $("#fadeoutbutton").click(function(){
+      $("#shiney").fadeOut("slow", function(){
+      });
+    });
+    $("#addclassbutton").click(function(){
+      $("#addclass").addClass("purple");
+    });
+    $("#beforebutton").click(function(){
+      $("#before").before("<h2>Unicorns are AMAZING!!! FOR REALZ!</h2>");
+    });
+    $("#afterbutton").click(function(){
+      $("#after").after("<h2>UNICORNS ALL DAY LONG YEAH!!!</h2>")
+    });
+    $("#appendbutton").click(function(){
+      $("#append").append("<h2>Dude, glitters, rainbows, and awesomesauce.</h2>")
+    })
+    $("#htmlbutton").click(function(){
+      $("#html").html("Dude, I'm like totally doing html right <b>now!</b>")
+    })
+    $("attrbutton").click(function(){
+      $("#attr").attr()
+    })
+    $("img").click(function(){
+      $(this).attr({
+        "src": $(this).attr("data-alt-src"), "data-alt-src" : $(this).attr("src")
+      })
+    });
+  });
+  </script>
+  <body>
+    <div id="click">
+      <h3>Click</h3>
+      <input type="submit" id="clickbutton" value="Click">
+      Stuff
+    </div>
+    <div id="hide">
+      <h3>Hide</h3>
+      <input type="submit" id="hidebutton" value="Hide">
+      <img src="http://vignette4.wikia.nocookie.net/valleyofunicorns/images/7/78/Rainbow_Unicorn_Baby.png/revision/latest?cb=20131202042004" class="sparkles" alt="YAY">
+      Stuff
+    </div>
+    <div id="show">
+      <h3>Show</h3>
+      <input type="submit" id="showbutton" value="Show">
+      Stuff
+    </div>
+    <div id="toggle">
+      <h3>Toggle</h3>
+      <input type="submit" id="togglebutton" value="Toggle">
+      Stuff
+    </div>
+    <div id="slidedown">
+      <h3>SlideDown</h3>
+      <input type="submit" id="slidedownbutton" value="SlideDown">
+      <img src="http://spiritualnetworks.com/file/pic/photo/2014/01/37c42a7b54900f47b8af2b9e197c3c77_1024.jpg" id="banner" alt="HOLY UNICORNS BATMAN!">
+      Stuff
+    </div>
+    <div id="slideup">
+      <h3>SlideUp</h3>
+      <input type="submit" id="slideupbutton" value="SlideUp">
+      Stuff
+    </div>
+    <div id="slidetoggle">
+      <h3>SlideToggle</h3>
+      <input type="submit" id="slidetogglebutton" value="SlideToggle">
+      Stuff
+    </div>
+    <div id="fadein">
+      <h3>FadeIn</h3>
+      <input type="submit" id="fadeinbutton" value="FadeIn">
+      <img src="https://img.clipartfest.com/5acd6a3e01e0c53860880e29fd2e0b44_sparkle-png-image-33328-sparkle-background-clipart-png_780-465.png" id="shiney" alt="OMG SPARKLES">
+      Stuff
+    </div>
+    <div id="fadeout">
+      <h3>FadeOut</h3>
+      <input type="submit" id="fadeoutbutton" value="FadeOut">
+      Stuff
+    </div>
+    <div id="addclass">
+      <h3>Addclass</h3>
+      <input type="submit" id="addclassbutton" value="AddClass">
+      Stuff
+    </div>
+    <div id="before">
+      <h3>Before</h3>
+      <input type="submit" id="beforebutton" value="Before">
+      Stuff
+    </div>
+    <div id="after">
+      <h3>After</h3>
+      <input type="submit" id="afterbutton" value="After">
+      Stuff
+    </div>
+    <div id="append">
+      <h3>Append</h3>
+      <input type="submit" id="appendbutton" value="Append">
+      Stuff
+    </div>
+    <div id="html">
+      <h3>HTML</h3>
+      <input type="submit" id="htmlbutton" value="HTML">
+      Stuff
+    </div>
+    <div id="attr">
+      <h3>Attr</h3>
+      <img src="http://www.iconsdb.com/icons/preview/black/horse-xxl.png" data-alt-src="http://cdn.marketplaceimages.windowsphone.com/v8/images/3eba07c1-f591-4e38-8907-31f90fa9543b?imageType=ws_icon_medium" id="1" class="ninja">
+      Stuff
+    </div>
+    <div id="val">
+      <h3>Val</h3>
+      <input type="submit" value="Val">
+      Stuff
+    </div>
+    <div id="text">
+      <h3>Text</h3>
+      <input type="submit" value="Text">
+      Stuff
+    </div>
+    <div id="data">
+      <h3>Data</h3>
+      <input type="submit" value="Data">
+      Stuff
+    </div>
+  </body>
+</html>

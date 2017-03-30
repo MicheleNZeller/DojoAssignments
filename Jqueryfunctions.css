@@ -1,0 +1,73 @@
+*{
+  margin-left: 50px;
+}
+#click{
+  background-color: purple;
+}
+#hide{
+  background-color: blue;
+}
+#show{
+  background-color: lightblue;
+}
+.purple{
+  color: purple;
+}
+.yellow{
+  color: yellow;
+}
+#shiney{
+  display: none;
+  height: 100px;
+  width: 100px;
+}
+#banner{
+  display:none;
+}
+#clickbutton{
+}
+#toggle{
+  background-color: green;
+}
+#slidedown{
+  background-color: yellow;
+}
+#slideup{
+  background-color: orange;
+}
+#slidetoggle{
+  background-color: red;
+}
+#fadein{
+  background-color: purple;
+}
+#fadeout{
+  background-color: blue;
+}
+#addclass{
+  background-color: lightblue;
+}
+#before{
+  background-color: green;
+}
+#after{
+  background-color: yellow;
+}
+#append{
+  background-color: orange;
+}
+#html{
+  background-color: red;
+}
+#attr{
+  background-color: purple;
+}
+#val{
+  background-color: blue;
+}
+#text{
+  background-color: lightblue;
+}
+#data{
+  background-color: green;
+}

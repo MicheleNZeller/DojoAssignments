@@ -1,0 +1,157 @@
+
+p{
+  padding: 5px;
+}
+
+table{
+  background-color: grey;
+  color: white;
+  display: block;
+  padding: 0px;
+}
+
+img{
+  display:inline-block;
+  vertical-align: top;
+}
+
+h2{
+  background: linear-gradient(#909090,#5f5f5f ,#909090);
+  color: white;
+  padding: 0px;
+  vertical-align: top;
+  margin: 0px;
+}
+h3{
+  display: inline-block;
+  font-family: "comic sans ms", sans-serif;
+  font-size: 25px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 20px;
+}
+
+h4{
+  display:inline-block;
+  margin-left: 572px;
+}
+
+}
+
+a href{
+    text-decoration: none;
+    color: #000000;
+}
+
+.button{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+#me4{
+  border: 10px;
+  border-color: grey;
+  border-style: solid;
+  margin: 5%;
+
+}
+
+#background1{
+  width: 1000px;
+  height: 75px;
+  background-color: #e0dfdf;
+  display:inline-block;
+}
+
+#background2{
+  width: 1000px;
+  height: 971px;
+  margin-top: -10px;
+  background: radial-gradient(#6b566b ,black );
+  display:inline-block;
+  vertical-align: top;
+}
+
+#abouttext{
+width: 427px;
+height: 222px;
+background: linear-gradient(#fefefe ,#eca1ec );
+display:inline-block;
+vertical-align: top;
+margin: 5%;
+
+}
+
+
+#lamodetext{
+  width: 300px;
+  height: 415px;
+  background: linear-gradient(#fefefe ,#eca1ec );
+  display:inline-block;
+  vertical-align: top;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#lamodetech{
+  width: 300px;
+  height: 200px;
+  background: linear-gradient(#fefefe ,#eca1ec );
+  display:inline-block;
+
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: -10px;
+
+}
+
+#familytext{
+  width: 300px;
+  height: 415px;
+  background: linear-gradient(#fefefe ,#eca1ec );
+  display:inline-block;
+  vertical-align: top;
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+
+#familytech{
+  width: 300px;
+  height: 200px;
+  background: linear-gradient(#fefefe ,#eca1ec );
+  display:inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+
+#five11text{
+  width: 300px;
+  height: 415px;
+  background: linear-gradient(#fefefe ,#eca1ec );
+  display:inline-block;
+  vertical-align: top;
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+
+#five11tech{
+  width: 300px;
+  height: 200px;
+  background: linear-gradient(#fefefe ,#eca1ec );
+  display:inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+  #background3{
+    width: 1000px;
+    height: 75px;
+    margin-top: -5px;
+    background-color: #e0dfdf;
+    display:inline-block;
+
+  }

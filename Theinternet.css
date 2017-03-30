@@ -1,0 +1,192 @@
+#globe{
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+  margin-bottom: -35px;
+}
+#internet{
+font-size: 60px;
+display:inline-block;
+}
+.color{
+  color: #37679a;
+}
+.red{
+  color: #c83a2d;
+}
+#web{
+  height: 45px;
+  color: white;
+  font-size: 30px;
+  background: linear-gradient(#36669a ,#5880a7,#36669a );
+  padding-top: 7px;
+  padding-left: 20px;
+}
+#left{
+  height: 800px;
+  width: 300px;
+  background-color: white;
+  display: inline-block;
+}
+.lightblue{
+  color: #5fa8ba;
+}
+
+}
+#videos{
+  height: 50px;
+  width: 120px;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+#server{
+  width: 237px;
+  height: 80px;
+}
+#more{
+  height:50px;
+  width:120px;
+  background: #e4b673;
+  background-image: -webkit-linear-gradient(top, #e4b673, #e17a20);
+  background-image: -moz-linear-gradient(top, #e4b673, #e17a20);
+  background-image: -ms-linear-gradient(top, #e4b673, #e17a20);
+  background-image: -o-linear-gradient(top, #e4b673, #e17a20);
+  background-image: linear-gradient(to bottom, #e4b673, #e17a20);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  text-decoration: none;
+}
+#leftaddiv{
+  width: 200px;
+  height: 300px;
+  background-image: url('/Users/tsuri/Documents/DAY1/images 2/ad_background.png');
+}
+#leftad{
+  height: 300px;
+  width: 200px;
+  display: inline;
+
+}
+h4{
+  display: inline;
+  color: white;
+  vertical-align: top;
+  margin-top: 500px;
+  font-size: 14px;
+  text-align: center;
+}
+#ninja{
+  height:180px;
+  width:150px;
+}
+#learnmore{
+  height: 50px;
+  width: 120px;
+  background: #82ccdd;
+  background-image: -webkit-linear-gradient(top, #82ccdd, #37b6d6);
+  background-image: -moz-linear-gradient(top, #82ccdd, #37b6d6);
+  background-image: -ms-linear-gradient(top, #82ccdd, #37b6d6);
+  background-image: -o-linear-gradient(top, #82ccdd, #37b6d6);
+  background-image: linear-gradient(to bottom, #82ccdd, #37b6d6);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  text-decoration: none;
+  display: inline;
+}
+#DNS{
+  display: inline-block;
+  height: 100px;
+  width: 465px;
+  background-color: white;
+  vertical-align: top;
+  color:blue;
+}
+#number{
+  color: lightblue;
+  font-size: 22px;
+  vertical-align: top;
+  display: inline-block;
+}
+#tiny1{
+  font-size: 7px;
+  color: black;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 19px;
+}
+#tiny{
+  font-size: 7px;
+  color: black;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 9px;
+}
+#phonestuff{
+  display: inline-block;
+  height: 83px;
+  width: 127px;
+  background-color: white;
+  vertical-align: top;
+  margin-top: 15px;
+}
+#main{
+  height: 800px;
+  width: 668px;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+}
+#home{
+  height: 20px;
+  width: 25px;
+  display: inline-block;
+}
+#phone{
+  margin-top: 13px;
+  height: 70px;
+  width: 67px;
+  display: inline-block;
+}
+#ad{
+  height: 80px;
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+}
+#botad{
+  height: 100px;
+  width: 500px;
+  display: inline-block;
+  background-color: white;
+  vertical-align: top;
+}
+}
+#adtext2{
+  width: 400px;
+  height: 200px;
+  font-size: 5px;
+  display: inline-block;
+  vertical-align: top;
+}

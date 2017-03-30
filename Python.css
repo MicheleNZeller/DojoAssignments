@@ -1,0 +1,159 @@
+
+img{
+  display:inline-block;
+}
+hr{
+  color:blue;
+  height: 2px;
+}
+.words{
+  margin: 10px;
+  margin-left: 23px;
+  display:inline-block;
+  vertical-align: top;
+}
+#color{
+  text-decoration: underline;
+  color: yellow;
+}
+#textsize{
+  color: white;
+}
+
+#wrapper{
+  width: 970px;
+  height: 776px;
+  background-color: #2f5073;
+  display:inline-block;
+}
+
+#textsize{
+  display: inline-block;
+  margin-left: 800px;
+
+}
+
+#searchbar{
+display:inline-block;
+border-radius: 10px;
+width: 200px;
+height: 48px;
+background-color: grey;
+box-shadow: 2px 2px 2px black;
+vertical-align: top;
+margin-left: 457px;
+margin-top: 27px;
+}
+
+#bar{
+  display:inline-block;
+  margin-top: 7%;
+  margin-left: 7%;
+}
+
+#button{
+  margin-left: 5px;
+  background-color:#2f5073;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+#titlebar{
+  display:inline-block;
+  font-size: 28px;
+  width: 900px;
+  height: 51px;
+  background-color: #4f7aa8;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+  color: white;
+  margin-left: 50px;
+  vertical-align: top;
+
+}
+#arrows{
+  width: 300px;
+  height: 300px;
+  background-color: #2f5073;
+  font-size: 20px;
+  color: white;
+  display:inline-block;
+
+}
+
+.bullets{
+  font-size: 10px;
+  color: yellow;
+  display:inline-block;
+
+}
+#secret{
+  width: 970px;
+  height: 400px;
+  background-color: #2f5073;
+  display:inline-block;
+  margin-top: 5px;
+}
+
+#boring{
+  width:628px;
+  height: 93px;
+  background-color: #2f5073;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+}
+
+#gettingstarted{
+  width: 430px;
+  height: 226px;
+  background-color: white;
+  display:inline-block;
+  margin-left: 40px;
+}
+.list1{
+  text-align: center;
+}
+.stuff{
+  margin: -141px;
+  margin-left: 180px;
+}
+#quote{
+  font-size: 30px;
+  color: yellow;
+  font-style: italic;
+}
+#applications{
+  width: 400px;
+  height: 226px;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+#bubble{
+  height: 226px;
+  width: 970px;
+  background-color: white;
+}
+#advertisment{
+  height: 48px;
+  width: 970px;
+  background-color: #2f5073;
+  display: inline-block;
+  vertical-align: top;
+  color: #83abd4;
+  font-size: 17px;
+}
+#copyright{
+  height: 15px;
+  width: 970px;
+  background-color: #2f5073;
+  display:inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: 10px;
+  color: #83abd4;
+}

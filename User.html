@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Users</title>
+  </head>
+  <body>
+    <table>
+      <tr><th>First Name</th> <th>Last Name</th> <th>Email Address</th>  <th>Contact#</th>  </th></tr>
+    </table>
+
+    <h2>Add User________________________</h2>
+<form method="post">
+    First Name:
+    <input type="text" id="firstname" name="first_name">
+    <br>
+    Last Name:
+    <input type="text" id="lastname" name="last_name">
+    <br>
+    Email Address:
+    <input type="text" id="email" name="e_mail">
+    <br>
+    Contact No.:
+    <input type="text" id="contact" name="contact_#">
+    <br>
+    <br>
+    <input type="submit" id="button" value="Add User">
+</form>
+  </body>
+  <style>
+  h2{
+    text-decoration: underline;
+  }
+  table{
+    width: 500px;
+    border: 2px solid black;
+  }
+  </style>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("form").submit(function(){
+      return false;
+    });
+    $("form").submit(function(){
+      $("table").append("<tr><td>"+$("#firstname").val()+"</td><td>"+$("#lastname").val()+"</td><td>"+$("#email").val()+"</td><td>"+$("#contact").val()+"</td></tr>");
+    });
+});
+  </script>
+</html>
